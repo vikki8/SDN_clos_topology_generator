@@ -19,6 +19,7 @@ This project uses ONOS version 2.7.0 LTS.
 2. Build a Ubuntu Docker Image <br>
 Refer to my other repository [here](https://github.com/vikki8/real_life_traffic_generator), to create a custom Ubuntu image with a real-life traffic generator <br>
 *Note: The name of the image must follow the script*
+`h.append(net.addDocker(f'h{i}', mac=f'00:00:00:00:00:{num}', dimage="ubuntu:latest", ipc_mode="shareable", devices=["/dev/net/tun"]))`
 
 
 ### Step 4: Run the script
