@@ -17,7 +17,7 @@ This project uses ONOS version 2.7.0 LTS.
 `net.addController('c0', switch=OVSKernelSwitch, controller=RemoteController, ip='controller-IP', port=6653)` 
 
 2. Build a Ubuntu Docker Image <br>
-Refer to my other repository [here](https://github.com/vikki8/real_life_traffic_generator), to create a custom Ubuntu image with real real-life traffic generator
+Refer to my other repository [here](https://github.com/vikki8/real_life_traffic_generator), to create a custom Ubuntu image with a real-life traffic generator
 
 
 ### Step 4: Run the script
