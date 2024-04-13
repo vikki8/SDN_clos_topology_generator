@@ -13,8 +13,9 @@ Refer to this guide [here](https://containernet.github.io/), to do a bare-metal 
 This project uses ONOS version 2.7.0 LTS.
 
 ### Step 3: Set ONOS IP in the script 
-find this line in the script <br> 
-`net.addController('c0', switch=OVSKernelSwitch, controller=RemoteController, ip='controller-IP', port=6653)` and replace the controller-IP
+find this line in the script and replace the controller-IP <br> 
+`net.addController('c0', switch=OVSKernelSwitch, controller=RemoteController, ip='controller-IP', port=6653)` 
+
 
 ### Step 4: Run the script
 Required Arguments:
