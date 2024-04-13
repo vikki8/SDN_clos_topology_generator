@@ -28,6 +28,8 @@ Required Arguments:
 
  -bwd --bandwidthdistribution    Distribution Layer Bandwidth
 
+ -ho --host              Number of Docker Hosts  
+
 ```
 
 Optional Arguments:
