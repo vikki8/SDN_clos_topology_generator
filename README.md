@@ -18,7 +18,7 @@ This project uses ONOS version 2.7.0 LTS.
 
 2. Build a Ubuntu Docker Image <br>
 Refer to my other repository [here](https://github.com/vikki8/real_life_traffic_generator), to create a custom Ubuntu image with a real-life traffic generator <br>
-_Note: The name of the image must follow the script _
+*Note: The name of the image must follow the script*
 
 
 ### Step 4: Run the script
