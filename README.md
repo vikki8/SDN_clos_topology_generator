@@ -12,9 +12,12 @@ Refer to this guide [here](https://containernet.github.io/), to do a bare-metal 
 ### Step 2: Bring up ONOS (SDN Controller)
 This project uses ONOS version 2.7.0 LTS.
 
-### Step 3: Set ONOS IP in the script 
+### Step 3: Configure the script 
 Find this line in the script and replace the controller-IP <br> 
 `net.addController('c0', switch=OVSKernelSwitch, controller=RemoteController, ip='controller-IP', port=6653)` 
+
+Build a Ubuntu Docker Image <br>
+Refer to my other repository [here](https://github.com/vikki8/real_life_traffic_generator), to create a custom ubuntu image with real life traffic generator
 
 
 ### Step 4: Run the script
