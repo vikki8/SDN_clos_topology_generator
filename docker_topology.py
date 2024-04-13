@@ -11,7 +11,7 @@ exec(open("/home/tein/sflow-rt/extras/sflow.py").read())
 
 info('*** Adding controller\n')
 net = Containernet(controller=None)
-net.addController('c0', switch=OVSKernelSwitch, controller=RemoteController, ip='10.100.10.8', port=6653)
+net.addController('c0', switch=OVSKernelSwitch, controller=RemoteController, ip='controller-IP', port=6653)
 
 parser = argparse.ArgumentParser(description="Enterprise Topology Generator")
 parser.add_argument('-bwc', '--bandwidthcore', type=int, metavar='', required=False, default=30,
